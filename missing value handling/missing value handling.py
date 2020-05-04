@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 # 以Wine Reviews为例，Consumer & Visitor Insights For Neighborhoods数据集更改下路径和列名称即可
 
 def loader():   #读取数据
-    filepath ="D:\geren(2019.11.25-)\北理工\数据挖掘\互评作业1\wine-reviews\winemag-data_first150k.csv" #使用的数据集文件地址
+    filepath ="winemag-data_first150k.csv" #使用的数据集文件地址
     df = pd.read_csv(filepath, header=0, usecols = [3, 4, 7])
     return df
 
